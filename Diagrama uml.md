@@ -15,5 +15,8 @@ Para diseñar un sistema que gestione los pedidos de la empresa, es necesario co
 
 # Segunda parte a realizar
 - Una breve lista de los conceptos que te has encontrado en los diagramas UML que se asemejan a los conceptos de programación orientada a objetos. Por ejemplo: Clases: GestorPedidos
+  Pues lo más importante y primero que vemos son las clases, representadas en UML como rectángulos con el nombre arriba y ya debajo primero los atributos y seguidamente si tiene métodos.
+  Por ejemplo la clase cliente, tiene como atributos id, nombre, dirección, teléfono y dirección, y no tiene métodos en este caso.
+  También contiene las relaciones entre una clase y otra, en un ejemplo de nuestro UML: Asociación: Pedido tiene una relación con Cliente y LineaPedido.
 - Explicación de la herramienta que has utilizado parra generar el diagrama UML, y si la has contrastado con otra y conclusiones de porque has elegido esa.
 - Una explicación sobre la conversión del diagrama UML al código.
