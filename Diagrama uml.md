@@ -13,3 +13,7 @@ Para diseñar un sistema que gestione los pedidos de la empresa, es necesario co
 
 ![Tablero en blanco](https://github.com/user-attachments/assets/6c65d522-3743-48c4-bcb6-4bd0c41f82d1)
 
+# Segunda parte a realizar
+- Una breve lista de los conceptos que te has encontrado en los diagramas UML que se asemejan a los conceptos de programación orientada a objetos. Por ejemplo: Clases: GestorPedidos
+- Explicación de la herramienta que has utilizado parra generar el diagrama UML, y si la has contrastado con otra y conclusiones de porque has elegido esa.
+- Una explicación sobre la conversión del diagrama UML al código.
