@@ -4,7 +4,6 @@
 
 # Pasos a seguir
 - Proceso refinado a diseño:
-  - Proceso de Refinamiento
   - Identificación de Entidades Principales: Se analizaron los elementos clave del dominio, resultando en clases como Cliente, Pedido, Producto, Pago, etc.
   - Definición de Relaciones:
   - Asociación entre Pedido y Cliente (un cliente puede tener múltiples pedidos).
