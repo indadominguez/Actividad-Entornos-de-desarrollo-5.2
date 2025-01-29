@@ -1,4 +1,4 @@
-# Trabajo a realizar
+# Instrucciones Diagrama de Clases
 Para diseñar un sistema que gestione los pedidos de la empresa, es necesario considerar los siguientes requerimientos:
 
 - Los pedidos los realizan los clientes, y pueden contener uno o varios productos.
@@ -12,7 +12,7 @@ Para diseñar un sistema que gestione los pedidos de la empresa, es necesario co
 - Las formas de pago aceptadas por el sistema son: Card (número, fecha de caducidad y tipo de tarjeta), Cash  (Tipo de moneda) y cheque (nombre y banco).
 - Cada pedido puede estar en uno de los siguientes estados: pdte, pgdo, pcdo, envdo, entgdo. El estado de cada pedido debe ser actualizado en el sistema en función de su evolución.
 
-
+---
 
 # Segunda parte a realizar
 - Una breve lista de los conceptos que te has encontrado en los diagramas UML que se asemejan a los conceptos de programación orientada a objetos. Por ejemplo: Clases: GestorPedidos
