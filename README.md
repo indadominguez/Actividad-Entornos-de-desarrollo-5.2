@@ -22,3 +22,6 @@
 
 - Una explicación sobre la conversión del diagrama UML al código.
   - Pues empecé estructurando las clases en kotlin, seguidamente definí las relaciones como el diagrama de clases establecia, he implementado los métodos y por último agregar lógica adicional, como el método calcularCosteTotal() en Pedido y realizar en una funcion main un ejemplo de como funciona el código.
+ 
+
+    
