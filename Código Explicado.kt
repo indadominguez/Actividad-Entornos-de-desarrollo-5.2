@@ -41,32 +41,32 @@ class Pedido(
 open class Pago(
     val id: Int,
     val fecha: Date,
-    val monto: Double
+    val dinero: Double
 )
 
 class Cash(
     id: Int,
     fecha: Date,
-    monto: Double,
+    dinero: Double,
     val tipoMoneda: String
-) : Pago(id, fecha, monto)
+) : Pago(id, fecha, dinero)
 
 class Cheque(
     id: Int,
     fecha: Date,
-    monto: Double,
+    dinero: Double,
     val nombre: String,
     val banco: String
-) : Pago(id, fecha, monto)
+) : Pago(id, fecha, dinero)
 
 class Card(
     id: Int,
     fecha: Date,
-    monto: Double,
+    dinero: Double,
     val numero: String,
     val fechaCaducidad: Date,
     val tipoTarjeta: String
-) : Pago(id, fecha, monto)
+) : Pago(id, fecha, dinero)
 
 // Clase LineaPedido
 class LineaPedido(
