@@ -89,4 +89,46 @@ class Producto(
 )
 
 
+// Ejemplo de cómo funciona el código
+import java.util.*
+
+fun main() {
+    val cliente = Cliente(
+        1,
+        "Inda Domínguez",
+        "Calle Manolete 123",
+        "697245689",
+        "idomhit1411@g.educaand.es"
+    )
+
+    val producto = Producto(
+        101,
+        "Móvil",
+        "Iphone i7 16GB RAM",
+        1200.0,
+        120.0,
+        10
+    )
+
+    val pedido = Pedido(
+        1001,
+        Date(),
+        cliente,
+        EstadoPedido.PENDIENTE
+    )
+
+    pedido.agregarLineaPedido(LineaPedido(producto, 2))
+
+    println("Costo total del pedido: $${pedido.calcularCosteTotal()}")
+
+    val pago = Card(
+        5001,
+        Date(),
+        pedido.calcularCosteTotal(),
+        "4111111111111111",
+        Date(),
+        "Visa"
+    )
+}
+
 
