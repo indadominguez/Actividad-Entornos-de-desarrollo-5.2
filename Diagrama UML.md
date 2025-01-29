@@ -25,4 +25,4 @@ Para diseñar un sistema que gestione los pedidos de la empresa, es necesario co
   clase ha sido siempre mi primera elección a la hora de hacer diagramas y esquemas en en ordenador.
   
 - Una explicación sobre la conversión del diagrama UML al código.
-  - Pues empecé estructurando las clases en kotlin, seguidamente definí las relaciones como el diagrama de clases establecia, he implementado los métodos y por último agregar lógica adicional,    como el método calcularCosteTotal() en Pedido y realizar en una funcion main un ejemplo de como funciona el código.
+  - Pues empecé estructurando las clases en kotlin, seguidamente definí las relaciones como el diagrama de clases establecia, he implementado los métodos y por último agregar lógica adicional, como el método calcularCosteTotal() en Pedido y realizar en una funcion main un ejemplo de como funciona el código.
