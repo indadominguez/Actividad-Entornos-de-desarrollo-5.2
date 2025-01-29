@@ -12,7 +12,7 @@ Para diseñar un sistema que gestione los pedidos de la empresa, es necesario co
 - Las formas de pago aceptadas por el sistema son: Card (número, fecha de caducidad y tipo de tarjeta), Cash  (Tipo de moneda) y cheque (nombre y banco).
 - Cada pedido puede estar en uno de los siguientes estados: pdte, pgdo, pcdo, envdo, entgdo. El estado de cada pedido debe ser actualizado en el sistema en función de su evolución.
 
-![Tablero en blanco](https://github.com/user-attachments/assets/6c65d522-3743-48c4-bcb6-4bd0c41f82d1)
+
 
 # Segunda parte a realizar
 - Una breve lista de los conceptos que te has encontrado en los diagramas UML que se asemejan a los conceptos de programación orientada a objetos. Por ejemplo: Clases: GestorPedidos
